@@ -59,3 +59,28 @@ html{
       #texte, #menu{
         display: inline-block;
       }
+      #musique{
+        style="font-size: 10px; 
+        color: #cccccc;
+        line-break: anywhere;
+        word-break: normal;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+        font-weight: 100;
+        "><a href="https://soundcloud.com/motorhead-official" title="Motörhead" target="_blank" style="color: #cccccc;
+         text-decoration: none;
+         ">Motörhead</a> · <a href="https://soundcloud.com/motorhead-official/overkill-1" title="Overkill" target="_blank" style="color: #cccccc; text-decoration: none;"
+      }
+      #image {
+        display:block
+        color: white;
+        font-size: 20px;
+        text-align: left;
+        float: right;
+        width: 60%;
+        background-color: grey;
+        opacity: 100%;
+        padding: 5%;
+      }
