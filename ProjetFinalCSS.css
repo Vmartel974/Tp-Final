@@ -1,4 +1,4 @@
-html{
+html{ /* Ceci est l'image visible sur toute les pages */
     background-image: url("Motorhead.jpg");
     background-size: cover;
     background-position: left 20px;
@@ -8,7 +8,7 @@ html{
     margin: 0%;
   }
   
-  #bandeau {
+  #bandeau { /* Ceci est le bandeau visible sur toute les pages */
     color:white ;
     font-size: 40px;
     text-align: center;
@@ -17,7 +17,7 @@ html{
     background-color:#444F;
   }
   
-  #menu {
+  #menu { /* Ceci est le menu visible sur toute les pages */
     color: white ;
     border: solid #444F 1px;
     width: auto;
@@ -25,7 +25,7 @@ html{
     padding: 1%;
     height: 100%;
   }
-  .bouton a {
+  .bouton a { /* Ceci sert a afficher les boutons visible sur toute les pages */
     display:block;
     width:150px;
     line-height:50px;
@@ -40,7 +40,7 @@ html{
     .bouton a:hover {
       background:url(boutonnoir2.png) no-repeat;
       }
-      #texte {
+      #texte { /* Ceci sert au texte sur toute les pages */
         display:block
         color: white;
         font-size: 20px;
@@ -59,7 +59,7 @@ html{
       #texte, #menu{
         display: inline-block;
       }
-      #musique{
+      #musique{ /* Ceci sert a la page musique pour afficher la vidéo et le lien soundcloud */
         style="font-size: 10px; 
         color: #cccccc;
         line-break: anywhere;
@@ -73,7 +73,7 @@ html{
          text-decoration: none;
          ">Motörhead</a> · <a href="https://soundcloud.com/motorhead-official/overkill-1" title="Overkill" target="_blank" style="color: #cccccc; text-decoration: none;"
       }
-      #image {
+      #image { /* Ceci sert pour afficher les image sur la page Albumphoto */
         display:block
         color: white;
         font-size: 20px;
